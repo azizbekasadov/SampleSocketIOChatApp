@@ -10,13 +10,27 @@
 		5D5737452A3A0CD100018ACF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5737442A3A0CD100018ACF /* AppDelegate.swift */; };
 		5D5737472A3A0CD100018ACF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5737462A3A0CD100018ACF /* SceneDelegate.swift */; };
 		5D5737492A3A0CD100018ACF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5737482A3A0CD100018ACF /* ViewController.swift */; };
-		5D57374C2A3A0CD100018ACF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D57374A2A3A0CD100018ACF /* Main.storyboard */; };
 		5D57374F2A3A0CD100018ACF /* SampleSocketIOChatApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5D57374D2A3A0CD100018ACF /* SampleSocketIOChatApp.xcdatamodeld */; };
 		5D5737512A3A0CD300018ACF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D5737502A3A0CD300018ACF /* Assets.xcassets */; };
 		5D5737542A3A0CD300018ACF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D5737522A3A0CD300018ACF /* LaunchScreen.storyboard */; };
 		5D57375F2A3A0CD300018ACF /* SampleSocketIOChatAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D57375E2A3A0CD300018ACF /* SampleSocketIOChatAppTests.swift */; };
 		5D5737692A3A0CD300018ACF /* SampleSocketIOChatAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5737682A3A0CD300018ACF /* SampleSocketIOChatAppUITests.swift */; };
 		5D57376B2A3A0CD300018ACF /* SampleSocketIOChatAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D57376A2A3A0CD300018ACF /* SampleSocketIOChatAppUITestsLaunchTests.swift */; };
+		5D57377F2A3A0D6700018ACF /* SocketIO in Frameworks */ = {isa = PBXBuildFile; productRef = 5D57377E2A3A0D6700018ACF /* SocketIO */; };
+		5D5737822A3A0DC000018ACF /* MessageKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5D5737812A3A0DC000018ACF /* MessageKit */; };
+		5D5737852A3A0E3600018ACF /* GlobalConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5737842A3A0E3600018ACF /* GlobalConstants.swift */; };
+		5D57378B2A3A117500018ACF /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D57378A2A3A117500018ACF /* ChatViewController.swift */; };
+		5D57378D2A3A117F00018ACF /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D57378C2A3A117F00018ACF /* UsersViewController.swift */; };
+		5D5737902A3A11D900018ACF /* Chat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D57378F2A3A11D900018ACF /* Chat.storyboard */; };
+		5D5737922A3A151800018ACF /* ChatTVAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5737912A3A151800018ACF /* ChatTVAdapter.swift */; };
+		5D5737942A3A172400018ACF /* ChatInputViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5737932A3A172400018ACF /* ChatInputViewAdapter.swift */; };
+		5D5737982A3A18FC00018ACF /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5737972A3A18FC00018ACF /* BaseCell.swift */; };
+		5D57379C2A3A192E00018ACF /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D57379A2A3A192E00018ACF /* ChatCell.swift */; };
+		5D57379D2A3A192E00018ACF /* ChatCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D57379B2A3A192E00018ACF /* ChatCell.xib */; };
+		5D5737A22A3A19F400018ACF /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5737A02A3A19F300018ACF /* UserCell.swift */; };
+		5D5737A32A3A19F400018ACF /* UserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D5737A12A3A19F300018ACF /* UserCell.xib */; };
+		5D5737A52A3A1A4F00018ACF /* Users.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D5737A42A3A1A4F00018ACF /* Users.storyboard */; };
+		5D5737A72A3A1B4000018ACF /* UsersTVAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5737A62A3A1B4000018ACF /* UsersTVAdapter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +55,6 @@
 		5D5737442A3A0CD100018ACF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5D5737462A3A0CD100018ACF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5D5737482A3A0CD100018ACF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5D57374B2A3A0CD100018ACF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5D57374E2A3A0CD100018ACF /* SampleSocketIOChatApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SampleSocketIOChatApp.xcdatamodel; sourceTree = "<group>"; };
 		5D5737502A3A0CD300018ACF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D5737532A3A0CD300018ACF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +64,19 @@
 		5D5737642A3A0CD300018ACF /* SampleSocketIOChatAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleSocketIOChatAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D5737682A3A0CD300018ACF /* SampleSocketIOChatAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleSocketIOChatAppUITests.swift; sourceTree = "<group>"; };
 		5D57376A2A3A0CD300018ACF /* SampleSocketIOChatAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleSocketIOChatAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5D5737842A3A0E3600018ACF /* GlobalConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalConstants.swift; sourceTree = "<group>"; };
+		5D57378A2A3A117500018ACF /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		5D57378C2A3A117F00018ACF /* UsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
+		5D57378F2A3A11D900018ACF /* Chat.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Chat.storyboard; sourceTree = "<group>"; };
+		5D5737912A3A151800018ACF /* ChatTVAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTVAdapter.swift; sourceTree = "<group>"; };
+		5D5737932A3A172400018ACF /* ChatInputViewAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatInputViewAdapter.swift; sourceTree = "<group>"; };
+		5D5737972A3A18FC00018ACF /* BaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
+		5D57379A2A3A192E00018ACF /* ChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
+		5D57379B2A3A192E00018ACF /* ChatCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatCell.xib; sourceTree = "<group>"; };
+		5D5737A02A3A19F300018ACF /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		5D5737A12A3A19F300018ACF /* UserCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserCell.xib; sourceTree = "<group>"; };
+		5D5737A42A3A1A4F00018ACF /* Users.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Users.storyboard; sourceTree = "<group>"; };
+		5D5737A62A3A1B4000018ACF /* UsersTVAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersTVAdapter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +84,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D57377F2A3A0D6700018ACF /* SocketIO in Frameworks */,
+				5D5737822A3A0DC000018ACF /* MessageKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,14 +129,12 @@
 		5D5737432A3A0CD100018ACF /* SampleSocketIOChatApp */ = {
 			isa = PBXGroup;
 			children = (
-				5D5737442A3A0CD100018ACF /* AppDelegate.swift */,
-				5D5737462A3A0CD100018ACF /* SceneDelegate.swift */,
-				5D5737482A3A0CD100018ACF /* ViewController.swift */,
-				5D57374A2A3A0CD100018ACF /* Main.storyboard */,
-				5D5737502A3A0CD300018ACF /* Assets.xcassets */,
-				5D5737522A3A0CD300018ACF /* LaunchScreen.storyboard */,
-				5D5737552A3A0CD300018ACF /* Info.plist */,
-				5D57374D2A3A0CD100018ACF /* SampleSocketIOChatApp.xcdatamodeld */,
+				5D57377C2A3A0CFF00018ACF /* Network */,
+				5D57377B2A3A0CF800018ACF /* Domain */,
+				5D57377A2A3A0CF500018ACF /* Data */,
+				5D5737772A3A0CDA00018ACF /* App */,
+				5D5737792A3A0CEC00018ACF /* Presentation */,
+				5D5737782A3A0CE000018ACF /* Resources */,
 			);
 			path = SampleSocketIOChatApp;
 			sourceTree = "<group>";
@@ -130,6 +156,156 @@
 			path = SampleSocketIOChatAppUITests;
 			sourceTree = "<group>";
 		};
+		5D5737772A3A0CDA00018ACF /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5D5737832A3A0E2B00018ACF /* Preferences */,
+				5D5737442A3A0CD100018ACF /* AppDelegate.swift */,
+				5D5737462A3A0CD100018ACF /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		5D5737782A3A0CE000018ACF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5D5737502A3A0CD300018ACF /* Assets.xcassets */,
+				5D5737522A3A0CD300018ACF /* LaunchScreen.storyboard */,
+				5D5737552A3A0CD300018ACF /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5D5737792A3A0CEC00018ACF /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				5D5737952A3A18F200018ACF /* Components */,
+				5D5737872A3A114600018ACF /* Scenes */,
+				5D5737482A3A0CD100018ACF /* ViewController.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		5D57377A2A3A0CF500018ACF /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				5D5737862A3A0EC200018ACF /* CoreData */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		5D57377B2A3A0CF800018ACF /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		5D57377C2A3A0CFF00018ACF /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		5D5737832A3A0E2B00018ACF /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				5D5737842A3A0E3600018ACF /* GlobalConstants.swift */,
+			);
+			path = Preferences;
+			sourceTree = "<group>";
+		};
+		5D5737862A3A0EC200018ACF /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				5D57374D2A3A0CD100018ACF /* SampleSocketIOChatApp.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		5D5737872A3A114600018ACF /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				5D5737892A3A115D00018ACF /* Users */,
+				5D5737882A3A115000018ACF /* Chat */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		5D5737882A3A115000018ACF /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				5D5737992A3A191C00018ACF /* Components */,
+				5D57378E2A3A11D000018ACF /* Skeleton */,
+				5D57378A2A3A117500018ACF /* ChatViewController.swift */,
+				5D5737912A3A151800018ACF /* ChatTVAdapter.swift */,
+				5D5737932A3A172400018ACF /* ChatInputViewAdapter.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		5D5737892A3A115D00018ACF /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				5D57379F2A3A19DA00018ACF /* Components */,
+				5D57379E2A3A19D500018ACF /* Skeleton */,
+				5D57378C2A3A117F00018ACF /* UsersViewController.swift */,
+				5D5737A62A3A1B4000018ACF /* UsersTVAdapter.swift */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		5D57378E2A3A11D000018ACF /* Skeleton */ = {
+			isa = PBXGroup;
+			children = (
+				5D57378F2A3A11D900018ACF /* Chat.storyboard */,
+			);
+			path = Skeleton;
+			sourceTree = "<group>";
+		};
+		5D5737952A3A18F200018ACF /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				5D5737962A3A18F700018ACF /* Core */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		5D5737962A3A18F700018ACF /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				5D5737972A3A18FC00018ACF /* BaseCell.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		5D5737992A3A191C00018ACF /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				5D57379A2A3A192E00018ACF /* ChatCell.swift */,
+				5D57379B2A3A192E00018ACF /* ChatCell.xib */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		5D57379E2A3A19D500018ACF /* Skeleton */ = {
+			isa = PBXGroup;
+			children = (
+				5D5737A42A3A1A4F00018ACF /* Users.storyboard */,
+			);
+			path = Skeleton;
+			sourceTree = "<group>";
+		};
+		5D57379F2A3A19DA00018ACF /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				5D5737A02A3A19F300018ACF /* UserCell.swift */,
+				5D5737A12A3A19F300018ACF /* UserCell.xib */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +322,10 @@
 			dependencies = (
 			);
 			name = SampleSocketIOChatApp;
+			packageProductDependencies = (
+				5D57377E2A3A0D6700018ACF /* SocketIO */,
+				5D5737812A3A0DC000018ACF /* MessageKit */,
+			);
 			productName = SampleSocketIOChatApp;
 			productReference = 5D5737412A3A0CD100018ACF /* SampleSocketIOChatApp.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +398,10 @@
 				Base,
 			);
 			mainGroup = 5D5737382A3A0CD100018ACF;
+			packageReferences = (
+				5D57377D2A3A0D6700018ACF /* XCRemoteSwiftPackageReference "socket.io-client-swift" */,
+				5D5737802A3A0DC000018ACF /* XCRemoteSwiftPackageReference "MessageKit" */,
+			);
 			productRefGroup = 5D5737422A3A0CD100018ACF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -234,9 +418,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D5737902A3A11D900018ACF /* Chat.storyboard in Resources */,
+				5D57379D2A3A192E00018ACF /* ChatCell.xib in Resources */,
 				5D5737542A3A0CD300018ACF /* LaunchScreen.storyboard in Resources */,
+				5D5737A52A3A1A4F00018ACF /* Users.storyboard in Resources */,
 				5D5737512A3A0CD300018ACF /* Assets.xcassets in Resources */,
-				5D57374C2A3A0CD100018ACF /* Main.storyboard in Resources */,
+				5D5737A32A3A19F400018ACF /* UserCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,9 +448,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D5737A72A3A1B4000018ACF /* UsersTVAdapter.swift in Sources */,
 				5D5737492A3A0CD100018ACF /* ViewController.swift in Sources */,
+				5D5737922A3A151800018ACF /* ChatTVAdapter.swift in Sources */,
+				5D57379C2A3A192E00018ACF /* ChatCell.swift in Sources */,
 				5D5737452A3A0CD100018ACF /* AppDelegate.swift in Sources */,
+				5D5737852A3A0E3600018ACF /* GlobalConstants.swift in Sources */,
+				5D5737942A3A172400018ACF /* ChatInputViewAdapter.swift in Sources */,
+				5D57378D2A3A117F00018ACF /* UsersViewController.swift in Sources */,
 				5D57374F2A3A0CD100018ACF /* SampleSocketIOChatApp.xcdatamodeld in Sources */,
+				5D5737A22A3A19F400018ACF /* UserCell.swift in Sources */,
+				5D57378B2A3A117500018ACF /* ChatViewController.swift in Sources */,
+				5D5737982A3A18FC00018ACF /* BaseCell.swift in Sources */,
 				5D5737472A3A0CD100018ACF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,14 +497,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5D57374A2A3A0CD100018ACF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5D57374B2A3A0CD100018ACF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5D5737522A3A0CD300018ACF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -370,7 +558,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -424,7 +612,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -444,18 +632,24 @@
 				DEVELOPMENT_TEAM = 7FCTC6DRE7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SampleSocketIOChatApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Socket Chat";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.azizbekasadov.SampleSocketIOChatApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -472,18 +666,24 @@
 				DEVELOPMENT_TEAM = 7FCTC6DRE7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SampleSocketIOChatApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Socket Chat";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.azizbekasadov.SampleSocketIOChatApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -606,6 +806,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5D57377D2A3A0D6700018ACF /* XCRemoteSwiftPackageReference "socket.io-client-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/socketio/socket.io-client-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		5D5737802A3A0DC000018ACF /* XCRemoteSwiftPackageReference "MessageKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MessageKit/MessageKit.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5D57377E2A3A0D6700018ACF /* SocketIO */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5D57377D2A3A0D6700018ACF /* XCRemoteSwiftPackageReference "socket.io-client-swift" */;
+			productName = SocketIO;
+		};
+		5D5737812A3A0DC000018ACF /* MessageKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5D5737802A3A0DC000018ACF /* XCRemoteSwiftPackageReference "MessageKit" */;
+			productName = MessageKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		5D57374D2A3A0CD100018ACF /* SampleSocketIOChatApp.xcdatamodeld */ = {
